@@ -1,0 +1,98 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+/* FLEXBOX */
+
+.entrada{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+/* BOX MODEL */
+
+textarea{
+    padding:10px;
+    border:2px solid #ccc;
+    border-radius:5px;
+}
+
+/* BOTÃO */
+
+button{
+    padding:10px;
+    border:none;
+    background:#0077ff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* PSEUDO-CLASSES */
+
+button:hover{
+    background:#0055cc;
+}
+
+button:active{
+    transform:scale(0.95);
+}
+
+textarea:focus{
+    border-color:#0077ff;
+}
+
+/* RESULTADO */
+
+.resultado{
+    padding:20px;
+    border:1px solid #ddd;
+}
+
+/* CLASSES DE SENTIMENTO */
+
+.positivo{
+    color:green;
+    font-weight:bold;
+}
+
+.negativo{
+    color:red;
+    font-weight:bold;
+}
+
+.neutro{
+    color:orange;
+    font-weight:bold;
+}
+
+@media (max-width:600px){
+
+.container{
+    width:95%;
+}
+
+h1{
+    font-size:22px;
+}
+
+button{
+    font-size:14px;
+}
+
+}

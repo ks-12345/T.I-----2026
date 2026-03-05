@@ -1,0 +1,63 @@
+div{
+    justify-self: center;
+    justify-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+.fogo, .agua, .planta{
+    margin: 10vh;
+    box-shadow: black;
+     align-items: center;
+    justify-items: center;
+}
+
+
+.fogo{
+    background-color: brown;
+    padding: 10vh;
+    border-radius: 10vh;
+}
+
+.agua{
+    background-color: rgb(15, 139, 211);
+    padding: 10vh;
+    border-radius: 10vh;
+}
+
+.planta {
+    background-color: rgb(55, 148, 35);
+    padding: 10vh;
+    border-radius: 10vh;
+}
+
+button{
+    border-radius: 10vh;
+    padding: 2vh 15vh;
+    background-color: rgb(151, 73, 224);
+    color: white;
+    font-size: 30px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(252, 0, 0);
+    
+}
+
+p{
+    font-size: 50px;
+    color: aliceblue;
+
+}

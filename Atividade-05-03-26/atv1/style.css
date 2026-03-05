@@ -1,0 +1,22 @@
+#id1 {
+    color: rgb(166, 0, 255);
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(255, 114, 232);
+}
+
+
+.cla1, .cla2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:aliceblue;
+
+}
